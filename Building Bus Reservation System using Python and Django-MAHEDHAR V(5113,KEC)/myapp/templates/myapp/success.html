@@ -1,0 +1,25 @@
+{% extends 'myapp/base.html' %} 
+{% block content %}
+
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <h2>Welcome to our Bus Reservation System!</h2>
+            <p style="font-weight: bold;">Embark on a journey of seamless booking and unforgettable travel experiences.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container my-3">
+    <div class="row justify-content-center">
+        <div class="col-lg-4 col-md-6 col-sm-8 col-xs-12 text-center">
+            <p style="margin-top: 20px; font-weight: bold;">Your User ID: <strong>{{ id }}</strong></p>
+            <form action="{% url 'signout' %}" method="post">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-success btn-lg mt-3">Sign out</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
