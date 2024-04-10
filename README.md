@@ -30,7 +30,7 @@ Django
 SQLite (for database)
 Installation
 Clone the repository:
-git clone 
+git clone https://github.com/mahedhar7/MAHEDHAR-V_511321104051_NAANMUDHALVAN_PROJECT_FILE.git
 Navigate to the project directory:
 cd bus-reservation-system
 Install dependencies:
@@ -41,7 +41,6 @@ Create a superuser:
 python manage.py createsuperuser
 Start the development server:
 python manage.py runserver
-Visit http://127.0.0.1:8000/ in your browser to access the application.
 Usage
 Sign up or log in using your credentials.
 Search for available buses by providing origin, destination, and date of travel.
