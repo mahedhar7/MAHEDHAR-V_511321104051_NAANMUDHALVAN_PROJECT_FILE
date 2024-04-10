@@ -30,7 +30,7 @@ Django
 SQLite (for database)
 Installation
 Clone the repository:
-git clone https://github.com/your-username/bus-reservation-system.git
+git clone 
 Navigate to the project directory:
 cd bus-reservation-system
 Install dependencies:
